@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.controller.WallDetailsController">
+   <children>
+      <Label layoutX="275.0" layoutY="31.0" prefHeight="38.0" prefWidth="270.0" text="Proprietatile straturilor" textAlignment="CENTER">
+         <font>
+            <Font name="System Italic" size="26.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="materialType" layoutX="260.0" layoutY="160.0" prefWidth="150.0" />
+      <Label layoutX="70.0" layoutY="100.0" prefHeight="30.0" prefWidth="210.0" text="Stratul numarul">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="160.0" prefHeight="30.0" prefWidth="140.0" text="Materialul stratului">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="220.0" prefHeight="30.0" prefWidth="105.0" text="Grosime">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="thickness" layoutX="260.0" layoutY="220.0" />
+      <ChoiceBox fx:id="indexWall" layoutX="260.0" layoutY="100.0" prefWidth="150.0" />
+      <Label layoutX="465.0" layoutY="223.0" text="(m)">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="605.0" layoutY="210.0" mnemonicParsing="false" onAction="#handleAddInfo" prefHeight="40.0" prefWidth="140.0" text="Adauga date" />
+      <Button layoutX="605.0" layoutY="520.0" mnemonicParsing="false" onAction="#handleCreatingDiagram" prefHeight="40.0" prefWidth="140.0" text="Formeaza diagrama" />
+      <Label layoutX="465.0" layoutY="100.0" prefHeight="30.0" prefWidth="240.0" text="Din interior spre exterior">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="70.0" layoutY="520.0" mnemonicParsing="false" onAction="#handleBack" prefHeight="40.0" prefWidth="140.0" text="Inapoi" />
+   </children>
+</AnchorPane>

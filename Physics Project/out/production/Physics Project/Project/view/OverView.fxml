@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.controller.OverViewController">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <Label layoutX="50.0" layoutY="120.0" prefHeight="30.0" prefWidth="150.0" text="Numar straturi" />
+            <Label layoutX="80.0" layoutY="50.0" prefHeight="40.0" prefWidth="660.0" text="Condensarea vaporilor de apa prin elementele de anvelopa" textAlignment="CENTER">
+               <font>
+                  <Font name="System Italic" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="170.0" prefHeight="30.0" prefWidth="150.0" text="Temperatura interioara" />
+            <Label layoutX="50.0" layoutY="220.0" prefHeight="30.0" prefWidth="150.0" text="Umiditate relativa int" />
+            <Label layoutX="50.0" layoutY="270.0" prefHeight="30.0" prefWidth="150.0" text="Temperatura ext" />
+            <Label layoutX="50.0" layoutY="320.0" prefHeight="30.0" prefWidth="150.0" text="Umiditate relativa ext" />
+            <TextField fx:id="nrLayers" layoutX="300.0" layoutY="120.0" prefHeight="25.0" prefWidth="100.0" />
+            <TextField fx:id="temperatureInt" layoutX="300.0" layoutY="170.0" prefHeight="25.0" prefWidth="100.0" />
+            <TextField fx:id="humidityInt" layoutX="300.0" layoutY="220.0" prefHeight="25.0" prefWidth="100.0" />
+            <TextField fx:id="temperatureExt" layoutX="300.0" layoutY="270.0" prefHeight="25.0" prefWidth="100.0" />
+            <TextField fx:id="humidityExt" layoutX="300.0" layoutY="320.0" prefHeight="25.0" prefWidth="100.0" />
+            <Button layoutX="600.0" layoutY="508.0" mnemonicParsing="false" onAction="#handleAddInfo" prefHeight="40.0" prefWidth="140.0" text="Adauga date" />
+            <Label layoutX="450.0" layoutY="175.0" text="(°C)" />
+            <Label layoutX="450.0" layoutY="225.0" text="(%)" />
+            <Label layoutX="450.0" layoutY="275.0" text="(°C)" />
+            <Label layoutX="450.0" layoutY="320.0" text="(%)" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
