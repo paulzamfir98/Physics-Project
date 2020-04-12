@@ -15,7 +15,7 @@ After the user inputs information about environemnt and wall, it computes the pr
   - JavaFX
   - JDK 8
 
-# Screenshots
+## Screenshots
 
 ### Add environment data
 ![alt_text](https://github.com/paulzamfir98/Physics-Project/blob/master/Screenshots/1.png)
@@ -31,3 +31,10 @@ After the user inputs information about environemnt and wall, it computes the pr
 
 ### Pop-up save dialog
 ![alt_text](https://github.com/paulzamfir98/Physics-Project/blob/master/Screenshots/5.png)
+
+## Deployment
+   - Download the repository.
+   - Rename folder "idea" to ".idea" from "Project-Physics".
+   - Open the project in IntelliJ.
+   - Click Edit Configurations for this project
+   - Provide the path for JRE from JDK 8 folder
