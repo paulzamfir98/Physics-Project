@@ -3,7 +3,7 @@ University project built with JavaFX.
 
 ## Description
 This is an application which verifies the occurance of condensantion in a building's envelope.
-After the user inputs information about environemnt and wall, it computes the pressure and saturation pressure for each wall's layer and checks if that is a proper environment for the enevelope, using a diagram.
+After the user inputs information about environment and wall, it computes the pressure and saturation pressure for each wall's layer and checks if that is a proper environment for the enevelope, using a diagram.
 
 ## Features
   - GUI for information's input including alerts for bad or incomplete data. 
